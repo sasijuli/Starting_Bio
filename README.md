@@ -51,3 +51,5 @@ Start with the modules in numerical order. Each module includes:
 The main reference list is available in [references.md](references.md).
 
 When possible, this tutorial links to official documentation from Linux manual pages, VMD, and NAMD.
+
+Short summaries of selected external links are available in [link_summaries.md](link_summaries.md).
