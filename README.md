@@ -1,6 +1,6 @@
 # Starting Bio
 
-Starting Bio is a beginner-friendly tutorial project for learning the basic tools used in biomolecular modeling and molecular dynamics workflows.
+This is a beginner-friendly tutorial project for learning the basic tools used in biomolecular modeling and molecular dynamics workflows.
 
 The tutorial focuses on three core topics:
 
