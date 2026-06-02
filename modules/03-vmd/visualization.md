@@ -25,12 +25,13 @@ In VMD, a molecular representation is controlled by four main choices:
 
 A useful beginner workflow is:
 
-1. Load a `.pdb` file. You can download it from the tutorial webpage (See the "Working with a Single Molecule" reference)
-2. Open `Graphics > Representations`.
-3. Start with `Selected Atoms: protein`.
-4. Try `Drawing Method: NewCartoon`.
-5. Try `Coloring Method: Secondary Structure` or `Structure`.
-6. Create a second representation for a specific feature, such as `resname LYS`, `water`, or `within 3 of protein`.
+1. Load a `.pdb` file.
+  You can download it from the tutorial webpage (See the "Working with a Single Molecule" reference)
+3. Open `Graphics > Representations`.
+4. Start with `Selected Atoms: protein`.
+5. Try `Drawing Method: NewCartoon`.
+6. Try `Coloring Method: Secondary Structure` or `Structure`.
+7. Create a second representation for a specific feature, such as `resname LYS`, `water`, or `within 3 of protein`.
 
 This approach comes from the official VMD tutorial's single-molecule workflow, which uses ubiquitin to practice loading molecules, changing drawing styles, changing coloring methods, and displaying selected parts of a structure.
 
