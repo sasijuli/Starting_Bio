@@ -25,7 +25,7 @@ In VMD, a molecular representation is controlled by four main choices:
 
 A useful beginner workflow is:
 
-1. Load a `.pdb` file.
+1. Load a `.pdb` file. You can download it from the tutorial webpage (See the "Working with a Single Molecule" reference)
 2. Open `Graphics > Representations`.
 3. Start with `Selected Atoms: protein`.
 4. Try `Drawing Method: NewCartoon`.
