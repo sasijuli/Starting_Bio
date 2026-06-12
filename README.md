@@ -1,8 +1,8 @@
 # Starting Bio
 
-This is a beginner-friendly tutorial project for learning the basic tools used in biomolecular modeling and molecular dynamics workflows.
+Starting Bio is a beginner-friendly collection of tutorials for learning tools commonly used in biomolecular modeling and molecular dynamics workflows.
 
-The tutorial focuses on three core topics:
+The material is organized into three main modules:
 
 - Linux command-line fundamentals
 - VMD for molecular visualization and analysis
@@ -16,29 +16,100 @@ No advanced programming background is assumed, but basic comfort with computers 
 
 ## Tutorial Roadmap
 
-1. [Introduction](modules/00-introduction/)
-2. [Linux Basics](modules/01-linux-basics/)
-3. [Linux for Bioinformatics and Simulation](modules/02-linux-for-bioinformatics/)
-4. [VMD](modules/03-vmd/)
-5. [NAMD](modules/04-namd/)
-6. [Complete Workflow](modules/05-complete-workflow/)
+Work through the modules in numerical order:
+
+1. [Linux Basics](01-linux-basics/)
+   Learn command-line navigation, file management, documentation, and essential Linux commands.
+2. [VMD](02-vmd/)
+   Start with core visualization and analysis, then continue to advanced or system-specific workflows.
+3. [NAMD](03-namd/)
+   Start with simulation inputs and execution, then continue to advanced simulation design and specialized methods.
+
+## Module Contents
+
+### 1. Linux Basics
+
+- [Module overview](01-linux-basics/README.md)
+- [Linux commands cheatsheet](01-linux-basics/commands-cheatsheet.md)
+- [Practice exercises](01-linux-basics/exercises.md)
+
+### 2. VMD
+
+- [Module overview](02-vmd/README.md)
+- [VMD Basics](02-vmd/vmd-basics/README.md)
+- [VMD Pro](02-vmd/vmd-pro/README.md)
+
+### 3. NAMD
+
+- [Module overview](03-namd/README.md)
+- [NAMD Basics](03-namd/namd-basics/README.md)
+- [NAMD Pro](03-namd/namd-pro/README.md)
 
 ## Repository Structure
 
 ```text
 Starting_bio/
+├── 01-linux-basics/
+│   ├── README.md
+│   ├── commands-cheatsheet.md
+│   └── exercises.md
+├── 02-vmd/
+│   ├── README.md
+│   ├── vmd-basics/
+│   │   ├── README.md
+│   │   ├── installation.md
+│   │   ├── visualization.md
+│   │   ├── atom-selections.md
+│   │   ├── tcl-scripting.md
+│   │   ├── measurements.md
+│   │   ├── analysis.md
+│   │   ├── trajectories-and-movies.md
+│   │   └── tutorial-resources.md
+│   └── vmd-pro/
+│       ├── README.md
+│       ├── advanced-tcl-and-automation.md
+│       ├── trajectory-analysis.md
+│       ├── protein-ligand-analysis.md
+│       ├── membrane-analysis.md
+│       ├── publication-graphics.md
+│       └── large-systems-and-performance.md
+├── 03-namd/
+│   ├── README.md
+│   ├── namd-basics/
+│   │   ├── README.md
+│   │   ├── installation.md
+│   │   ├── input-files.md
+│   │   ├── running-simulations.md
+│   │   └── analyzing-results.md
+│   └── namd-pro/
+│       ├── README.md
+│       ├── system-preparation-and-validation.md
+│       ├── equilibration-and-production.md
+│       ├── membrane-simulations.md
+│       ├── free-energy-and-enhanced-sampling.md
+│       ├── hpc-and-performance.md
+│       ├── restarts-and-troubleshooting.md
+│       └── reproducibility-and-data-management.md
+├── templates/
+│   ├── exercise-template.md
+│   └── tutorial-page-template.md
 ├── README.md
-├── references.md
 ├── glossary.md
-├── modules/
-├── examples/
-├── assets/
-└── templates/
+├── link_summaries.md
+└── references.md
 ```
 
 ## How To Use This Tutorial
 
-Start with the modules in numerical order. Each module includes:
+1. Start with the module overview in each numbered folder.
+2. Complete the `basics` section before moving to the corresponding `pro` section.
+3. Read basic topic pages in the suggested order.
+4. Choose advanced pages according to your scientific system or question.
+5. Run the commands and complete the practice exercises.
+6. Use the glossary when you encounter unfamiliar terminology.
+7. Consult the external references for more detailed explanations.
+
+The tutorial pages may include:
 
 - Learning goals
 - Core concepts
@@ -46,10 +117,12 @@ Start with the modules in numerical order. Each module includes:
 - Practice exercises
 - External references
 
-## External References
+## Supporting Resources
 
-The main reference list is available in [references.md](references.md).
+- [Glossary](glossary.md): definitions of important Linux, VMD, and NAMD terms
+- [External link summaries](link_summaries.md): short descriptions of selected supplementary resources
+- [References](references.md): the complete list of external sources used in the tutorials
+- [Tutorial page template](templates/tutorial-page-template.md): structure for adding a new tutorial page
+- [Exercise template](templates/exercise-template.md): structure for adding a new exercise
 
 When possible, this tutorial links to official documentation from Linux manual pages, VMD, and NAMD.
-
-Short summaries of selected external links are available in [link_summaries.md](link_summaries.md).

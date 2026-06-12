@@ -1,4 +1,4 @@
-# VMD
+# VMD Basics
 
 ## Learning Goals
 
@@ -11,6 +11,8 @@ By the end of this module, you should be able to:
 - Select atoms using VMD selection language
 - Run basic measurements and analyses
 - Use external VMD tutorials as follow-up practice
+
+These skills are prerequisites for the specialized workflows in [VMD Pro](../vmd-pro/).
 
 ## Core Ideas
 
@@ -52,3 +54,7 @@ VMD stands for Visual Molecular Dynamics. It is commonly used to visualize biomo
 - VMD tutorial PDF: https://www.ks.uiuc.edu/Training/Tutorials/vmd/vmd-tutorial.pdf
 - VMD tutorial HTML: https://www.ks.uiuc.edu/Training/Tutorials/vmd/tutorial-html/index.html
 - VMD external link summaries: [link_summaries.md](../../link_summaries.md)
+
+## Next Step
+
+After completing these pages, return to the [VMD module overview](../README.md) or continue to [VMD Pro](../vmd-pro/).
