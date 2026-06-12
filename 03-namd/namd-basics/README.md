@@ -39,6 +39,7 @@ NAMD is a molecular dynamics simulation engine. It calculates how atoms move ove
 
 ## External References
 
+- Complete NAMD Basics reference list: [references.md](references.md)
 - NAMD documentation: https://www.ks.uiuc.edu/Research/namd/documentation.html
 - Current NAMD User's Guide: https://www.tcbg.illinois.edu/Research/namd/current/ug.pdf
 - NAMD tutorials: https://www.ks.uiuc.edu/Training/Tutorials/

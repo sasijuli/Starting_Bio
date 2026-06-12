@@ -33,5 +33,8 @@ See the [NAMD Pro overview](namd-pro/README.md) for prerequisites and guidance.
 
 ## Supporting Resources
 
+- [NAMD References](references.md)
+- [NAMD Basics References](namd-basics/references.md)
+- [NAMD Pro References](namd-pro/references.md)
 - [Complete Reference List](../references.md)
 - [Glossary](../glossary.md)

@@ -33,6 +33,11 @@ Complete [NAMD Basics](../namd-basics/) and confirm that you can:
 
 Do not copy advanced parameters without understanding their physical meaning. Record units, force-field versions, boundary conditions, thermostat and barostat settings, restraints, timestep choices, and software versions. Validate each stage before starting a long production simulation.
 
+## References
+
+- [NAMD Pro references](references.md)
+- [NAMD module references](../references.md)
+
 ## Recommended Page Structure
 
 Each advanced page should contain:

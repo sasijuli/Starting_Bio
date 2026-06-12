@@ -15,15 +15,25 @@ For this project, use external tutorials in this order:
 3. **VMD User's Guide**: detailed reference for interface tools, rendering methods, selection language, Tcl commands, and analysis commands.
 
 
-## Optional Link Summaries
+## Supplementary VMD Links
 
-The repository also includes [External Link Summaries](../../link_summaries.md), a companion note file with short descriptions of useful external VMD links. Treat it as optional enrichment rather than required tutorial material. It is most useful when you want extra practice with measurements, rendering publication-style images, membrane-model examples, or official VMD reference material.
+The VMD module includes [VMD Supplementary Link Summaries](../link_summaries.md), organized by tutorial topic and learning level. Treat these links as optional enrichment rather than required material.
 
 Use these summaries when:
 
 - You finish a core VMD lesson and want an extra example.
 - You need help deciding which external link is relevant to a specific task.
-- You want to keep optional videos, articles, and reference links separate from the required tutorial sequence.
+- You want to record your own notes about optional videos.
+
+## Video Resources
+
+The following links are available for manual review:
+
+- Mohamed Shehata playlists: https://www.youtube.com/@Mohamedshehata/playlists
+- YouTube video: https://www.youtube.com/watch?v=wWuV6mW239I
+- YouTube video: https://www.youtube.com/watch?v=_skmrS6X4Ys
+
+Spaces for titles, summaries, and personal notes are available in the [Video Resources section](../link_summaries.md#video-resources).
 
 ## How To Take Notes From External Tutorials
 

@@ -34,7 +34,7 @@ VMD stands for Visual Molecular Dynamics. It is commonly used to visualize biomo
 6. [Analysis In VMD](analysis.md)
 7. [Trajectories And Movies](trajectories-and-movies.md)
 8. [Using External VMD Tutorials](tutorial-resources.md)
-9. Optional: [External Link Summaries](../../link_summaries.md) for extra VMD practice links and references
+9. Optional: [VMD Supplementary Link Summaries](../link_summaries.md) for extra practice links and video notes
 
 ## Practice
 
@@ -47,13 +47,14 @@ VMD stands for Visual Molecular Dynamics. It is commonly used to visualize biomo
 
 ## External References
 
+- Complete VMD Basics reference list: [references.md](references.md)
 - VMD main page: https://www.ks.uiuc.edu/Research/vmd/
 - VMD User's Guide: https://www.ks.uiuc.edu/Research/vmd/vmd-new/ug.pdf
 - Current VMD User's Guide: https://www.ks.uiuc.edu/Research/vmd/current/ug.pdf
 - VMD tutorials: https://www.ks.uiuc.edu/Training/Tutorials/
 - VMD tutorial PDF: https://www.ks.uiuc.edu/Training/Tutorials/vmd/vmd-tutorial.pdf
 - VMD tutorial HTML: https://www.ks.uiuc.edu/Training/Tutorials/vmd/tutorial-html/index.html
-- VMD external link summaries: [link_summaries.md](../../link_summaries.md)
+- VMD supplementary link summaries: [link_summaries.md](../link_summaries.md)
 
 ## Next Step
 

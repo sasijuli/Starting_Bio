@@ -33,6 +33,11 @@ Complete the following VMD Basics topics first:
 
 Advanced pages are independent. Choose the workflow that matches your scientific question, document every atom selection and parameter, and test scripts on a small subset of frames before processing a complete trajectory.
 
+## References
+
+- [VMD Pro references](references.md)
+- [VMD module references](../references.md)
+
 ## Recommended Page Structure
 
 Each advanced page should contain:

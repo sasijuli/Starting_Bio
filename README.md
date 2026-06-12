@@ -32,23 +32,27 @@ Work through the modules in numerical order:
 - [Module overview](01-linux-basics/README.md)
 - [Linux commands cheatsheet](01-linux-basics/commands-cheatsheet.md)
 - [Practice exercises](01-linux-basics/exercises.md)
+- [Linux references](01-linux-basics/references.md)
 
 ### 2. VMD
 
 - [Module overview](02-vmd/README.md)
 - [VMD Basics](02-vmd/vmd-basics/README.md)
 - [VMD Pro](02-vmd/vmd-pro/README.md)
+- [VMD references](02-vmd/references.md)
+- [VMD supplementary link summaries](02-vmd/link_summaries.md)
 
 ### 3. NAMD
 
 - [Module overview](03-namd/README.md)
 - [NAMD Basics](03-namd/namd-basics/README.md)
 - [NAMD Pro](03-namd/namd-pro/README.md)
+- [NAMD references](03-namd/references.md)
 
 ## Supporting Resources
 
 - [Glossary](glossary.md): definitions of important Linux, VMD, and NAMD terms
-- [External link summaries](link_summaries.md): short descriptions of selected supplementary resources
+- [VMD supplementary link summaries](02-vmd/link_summaries.md): optional VMD articles, videos, tutorials, and notes organized by topic
 - [References](references.md): the complete list of external sources used in the tutorials
 - [Tutorial page template](templates/tutorial-page-template.md): structure for adding a new tutorial page
 - [Exercise template](templates/exercise-template.md): structure for adding a new exercise
@@ -80,11 +84,15 @@ Starting_bio/
 ├── 01-linux-basics/
 │   ├── README.md
 │   ├── commands-cheatsheet.md
-│   └── exercises.md
+│   ├── exercises.md
+│   └── references.md
 ├── 02-vmd/
 │   ├── README.md
+│   ├── references.md
+│   ├── link_summaries.md
 │   ├── vmd-basics/
 │   │   ├── README.md
+│   │   ├── references.md
 │   │   ├── installation.md
 │   │   ├── visualization.md
 │   │   ├── atom-selections.md
@@ -95,6 +103,7 @@ Starting_bio/
 │   │   └── tutorial-resources.md
 │   └── vmd-pro/
 │       ├── README.md
+│       ├── references.md
 │       ├── advanced-tcl-and-automation.md
 │       ├── trajectory-analysis.md
 │       ├── protein-ligand-analysis.md
@@ -103,14 +112,17 @@ Starting_bio/
 │       └── large-systems-and-performance.md
 ├── 03-namd/
 │   ├── README.md
+│   ├── references.md
 │   ├── namd-basics/
 │   │   ├── README.md
+│   │   ├── references.md
 │   │   ├── installation.md
 │   │   ├── input-files.md
 │   │   ├── running-simulations.md
 │   │   └── analyzing-results.md
 │   └── namd-pro/
 │       ├── README.md
+│       ├── references.md
 │       ├── system-preparation-and-validation.md
 │       ├── equilibration-and-production.md
 │       ├── membrane-simulations.md
@@ -123,8 +135,5 @@ Starting_bio/
 │   └── tutorial-page-template.md
 ├── README.md
 ├── glossary.md
-├── link_summaries.md
 └── references.md
 ```
-
-

@@ -40,6 +40,9 @@ See the [VMD Pro overview](vmd-pro/README.md) for prerequisites and suggested st
 
 ## Supporting Resources
 
-- [External Link Summaries](../link_summaries.md)
+- [VMD References](references.md)
+- [VMD Basics References](vmd-basics/references.md)
+- [VMD Pro References](vmd-pro/references.md)
+- [VMD Supplementary Link Summaries](link_summaries.md)
 - [Complete Reference List](../references.md)
 - [Glossary](../glossary.md)

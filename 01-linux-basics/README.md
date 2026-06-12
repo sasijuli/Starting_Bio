@@ -45,3 +45,4 @@ man
 
 - Linux man-pages project: https://man7.org/linux/man-pages/
 - Ubuntu Manpages: https://manpages.ubuntu.com/
+- Complete module reference list: [references.md](references.md)

@@ -72,6 +72,12 @@ Use any small `.pdb` file and complete these tasks:
 4. Repeat one measurement using Tcl.
 5. If a trajectory is loaded, save the distance over all frames.
 
+## Supplementary Tutorial
+
+After completing the exercises above, use the [Compchems VMD measurements guide](https://www.compchems.com/vmd-measurements-analyze-distances-and-angles-with-vmd/#distance-measurements-in-vmd) for another GUI-based example of distances, angles, dihedrals, labels, and trajectory-dependent measurements.
+
+See the local [VMD supplementary link summary](../link_summaries.md#measurements) for guidance on how this resource fits into the tutorial.
+
 ## External References
 
 - VMD `measure` command reference, version 1.8.5: https://www.ks.uiuc.edu/Research/vmd/vmd-1.8.5/ug/node124.html

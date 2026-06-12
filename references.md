@@ -2,6 +2,16 @@
 
 This file collects external materials used throughout the tutorial.
 
+## Module Reference Files
+
+- Linux Basics: [01-linux-basics/references.md](01-linux-basics/references.md)
+- VMD reference index: [02-vmd/references.md](02-vmd/references.md)
+- VMD Basics: [02-vmd/vmd-basics/references.md](02-vmd/vmd-basics/references.md)
+- VMD Pro: [02-vmd/vmd-pro/references.md](02-vmd/vmd-pro/references.md)
+- NAMD reference index: [03-namd/references.md](03-namd/references.md)
+- NAMD Basics: [03-namd/namd-basics/references.md](03-namd/namd-basics/references.md)
+- NAMD Pro: [03-namd/namd-pro/references.md](03-namd/namd-pro/references.md)
+
 ## Linux
 
 - Linux man-pages project: https://man7.org/linux/man-pages/
