@@ -55,6 +55,24 @@ Work through the modules in numerical order:
 
 When possible, this tutorial links to official documentation from Linux manual pages, VMD, and NAMD.
 
+## How To Use This Tutorial
+
+1. Start with the module overview in each numbered folder.
+2. Complete the `basics` section before moving to the corresponding `pro` section.
+3. Read basic topic pages in the suggested order.
+4. Choose advanced pages according to your scientific system or question.
+5. Run the commands and complete the practice exercises.
+6. Use the glossary when you encounter unfamiliar terminology.
+7. Consult the external references for more detailed explanations.
+
+The tutorial pages may include:
+
+- Learning goals
+- Core concepts
+- Step-by-step notes
+- Practice exercises
+- External references
+
 ## Repository Structure
 
 ```text
@@ -109,20 +127,4 @@ Starting_bio/
 └── references.md
 ```
 
-## How To Use This Tutorial
 
-1. Start with the module overview in each numbered folder.
-2. Complete the `basics` section before moving to the corresponding `pro` section.
-3. Read basic topic pages in the suggested order.
-4. Choose advanced pages according to your scientific system or question.
-5. Run the commands and complete the practice exercises.
-6. Use the glossary when you encounter unfamiliar terminology.
-7. Consult the external references for more detailed explanations.
-
-The tutorial pages may include:
-
-- Learning goals
-- Core concepts
-- Step-by-step notes
-- Practice exercises
-- External references
