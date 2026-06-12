@@ -45,6 +45,16 @@ Work through the modules in numerical order:
 - [NAMD Basics](03-namd/namd-basics/README.md)
 - [NAMD Pro](03-namd/namd-pro/README.md)
 
+## Supporting Resources
+
+- [Glossary](glossary.md): definitions of important Linux, VMD, and NAMD terms
+- [External link summaries](link_summaries.md): short descriptions of selected supplementary resources
+- [References](references.md): the complete list of external sources used in the tutorials
+- [Tutorial page template](templates/tutorial-page-template.md): structure for adding a new tutorial page
+- [Exercise template](templates/exercise-template.md): structure for adding a new exercise
+
+When possible, this tutorial links to official documentation from Linux manual pages, VMD, and NAMD.
+
 ## Repository Structure
 
 ```text
@@ -116,13 +126,3 @@ The tutorial pages may include:
 - Step-by-step notes
 - Practice exercises
 - External references
-
-## Supporting Resources
-
-- [Glossary](glossary.md): definitions of important Linux, VMD, and NAMD terms
-- [External link summaries](link_summaries.md): short descriptions of selected supplementary resources
-- [References](references.md): the complete list of external sources used in the tutorials
-- [Tutorial page template](templates/tutorial-page-template.md): structure for adding a new tutorial page
-- [Exercise template](templates/exercise-template.md): structure for adding a new exercise
-
-When possible, this tutorial links to official documentation from Linux manual pages, VMD, and NAMD.
