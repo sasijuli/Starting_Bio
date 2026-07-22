@@ -23,6 +23,13 @@ These references support advanced system preparation, equilibration, production 
 - NAMD-L TIP4P discussion: https://www.ks.uiuc.edu/Research/namd/mailing_list/namd-l.2010-2011/2303.html
 - Scalable Molecular Dynamics with NAMD: https://pmc.ncbi.nlm.nih.gov/articles/PMC2486339/
 
+## Simulation Best practices
+
+- Smith, D. J., Klauda, J. B., & Sodt, A. J. (2018). Simulation Best Practices for Lipid Membranes [Article v1.0]. Living Journal of Computational Molecular Science, 1(1), 5966. https://doi.org/10.33011/livecoms.1.1.5966
+- Full-text version in PubMed Central: https://pmc.ncbi.nlm.nih.gov/articles/PMC9534443/
+
+**Highlighted for NAMD Pro:** use this reference as a membrane-simulation checklist for model selection, MD control settings, initial configuration preparation, equilibration, production sampling, physical-property validation, and documentation of finite-size or sampling limitations.
+
 ## Equilibration, Production, And Controls
 
 - NAMD configuration parameters, timestep and basic dynamics: https://www.ks.uiuc.edu/Research/namd/2.6/olddocs/ug/node26.html
@@ -68,7 +75,7 @@ Cluster-specific scheduler syntax and resource policies should come from the doc
 
 - `system-preparation-and-validation.md`: NAMD User's Guide, NAMD tutorial PSF and parameter file sections, VMD plugins, MacKerell force fields, TIP4P discussion, and CHARMM-GUI
 - `equilibration-and-production.md`: NAMD User's Guide, standard minimization and dynamics parameters, thermostat controls, pressure controls, and official NAMD tutorial
-- `membrane-simulations.md`: membrane tutorials, CHARMM-GUI, pressure control, restraints, useful membrane-analysis tools, and the NAMD User's Guide
+- `membrane-simulations.md`: membrane tutorials, CHARMM-GUI, pressure control, restraints, useful membrane-analysis tools, Simulation Best Practices for Lipid Membranes, and the NAMD User's Guide
 - `free-energy-and-enhanced-sampling.md`: NAMD User's Guide, Colvars, enhanced-sampling tutorials, NAMD bibliography, and NAMD 3.0 method sections
 - `hpc-and-performance.md`: NAMD User's Guide, NAMD at TACC, NAMD at Texas, performance tuning, and the batch-computing module
 - `restarts-and-troubleshooting.md`: NAMD User's Guide, output and restart parameters, XST discussion, release notes, temperature controls, pressure controls, and mailing list

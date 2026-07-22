@@ -30,6 +30,16 @@ A staged membrane-equilibration plan with explicit force-field files, pressure-c
 
 - [Useful Tools For Membrane Analysis](../../05-useful-tools-for-membrane-analysis/)
 
+## Simulation Best practices
+
+Smith, Klauda, and Sodt's article, "Simulation Best Practices for Lipid Membranes," is a focused checklist for designing, equilibrating, running, and validating lipid bilayer MD simulations.
+
+- **Start from the scientific question.** Choose the membrane composition, model resolution, system size, and simulation length according to the structural, mechanical, thermodynamic, or dynamic property you need to measure.
+- **Define simulation controls before production.** Record the target temperature, pressure-control strategy, boundary conditions, timestep, cutoffs, long-range electrostatics, restraints, and force-field versions.
+- **Build and equilibrate deliberately.** Estimate lipids, solvent, and box dimensions from the intended membrane area and hydration; minimize bad contacts; warm to the target temperature; release restraints in stages when needed.
+- **Validate before interpreting results.** Confirm that area per lipid, bilayer thickness, box dimensions, membrane order, water/ion placement, and any study-specific properties are stable before collecting production averages.
+- **Report limitations.** Note finite-size effects, sampling time, model resolution, and force-field assumptions when comparing with experiments or published simulations.
+
 ## External References
 
 - NAMD pressure control: https://www.ks.uiuc.edu/Research/namd/3.0b3/ug/node39.html
@@ -37,3 +47,4 @@ A staged membrane-equilibration plan with explicit force-field files, pressure-c
 - CHARMM force field files, MacKerell Lab: https://mackerell.umaryland.edu/charmm_ff.shtml
 - NAMD standard minimization and dynamics parameters: https://www.ks.uiuc.edu/Research/namd/2.14/ug/node34.html
 - NAMD tutorial, parameter files: https://www.ks.uiuc.edu/Training/Tutorials/namd/namd-tutorial-unix-html/node25.html#:~:text=given%20in%20the%20parameter%20files,/mole/rad**2%20!
+- Simulation Best Practices for Lipid Membranes: https://pmc.ncbi.nlm.nih.gov/articles/PMC9534443/
