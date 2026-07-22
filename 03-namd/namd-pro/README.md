@@ -31,7 +31,7 @@ Use "Simulation Best Practices for Lipid Membranes" as a practical checklist whe
 
 - [Membrane simulation best-practices notes](membrane-simulations.md#simulation-best-practices)
   
-Simulation Best Practices for Lipid Membranes: [Reference](https://pmc.ncbi.nlm.nih.gov/articles/PMC9534443/)
+[Reference](https://pmc.ncbi.nlm.nih.gov/articles/PMC9534443/)
 
 ## References
 
