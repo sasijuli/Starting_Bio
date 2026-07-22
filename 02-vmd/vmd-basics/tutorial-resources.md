@@ -25,15 +25,13 @@ Use these summaries when:
 - You need help deciding which external link is relevant to a specific task.
 - You want to record your own notes about optional videos.
 
-## Video Resources
+## Video Tutorials
 
-The following links are available for manual review:
+The YouTube tutorials are grouped by topic in the [Video Tutorials section](../link_summaries.md#video-tutorials).
 
-- Mohamed Shehata playlists: https://www.youtube.com/@Mohamedshehata/playlists
-- YouTube video: https://www.youtube.com/watch?v=wWuV6mW239I
-- YouTube video: https://www.youtube.com/watch?v=_skmrS6X4Ys
-
-Spaces for titles, summaries, and personal notes are available in the [Video Resources section](../link_summaries.md#video-resources).
+- **VMD Basics And Molecular Visualization**: [Molecular visualization with VMD](https://www.youtube.com/watch?v=_skmrS6X4Ys)
+- **Molecular Modeling With VMD**: [Water Atomic Modeling with VMD](https://www.youtube.com/watch?v=wWuV6mW239I)
+- **Mixed Molecular Simulation Playlists**: [Mohamed shehata](https://www.youtube.com/@Mohamedshehata/playlists)
 
 ## How To Take Notes From External Tutorials
 

@@ -27,14 +27,14 @@ The basics section follows a linear learning path:
 
 ## VMD Pro
 
-The advanced section is organized by workflow rather than as a strict sequence:
+The advanced section is organized as practical questions rather than as a strict sequence:
 
-- [Advanced Tcl And Automation](vmd-pro/advanced-tcl-and-automation.md)
-- [Trajectory Analysis](vmd-pro/trajectory-analysis.md)
-- [Protein-Ligand Analysis](vmd-pro/protein-ligand-analysis.md)
-- [Membrane Analysis](vmd-pro/membrane-analysis.md)
-- [Publication Graphics](vmd-pro/publication-graphics.md)
-- [Large Systems And Performance](vmd-pro/large-systems-and-performance.md)
+- [How can I automate VMD analyses with Tcl?](vmd-pro/advanced-tcl-and-automation.md)
+- [How can I analyze a trajectory reproducibly?](vmd-pro/trajectory-analysis.md)
+- [How can I analyze protein-ligand interactions?](vmd-pro/protein-ligand-analysis.md)
+- [How can I study membrane systems in VMD?](vmd-pro/membrane-analysis.md)
+- [How can I make high-resolution images and movies?](vmd-pro/publication-graphics.md)
+- [How can I work with large systems efficiently?](vmd-pro/large-systems-and-performance.md)
 
 See the [VMD Pro overview](vmd-pro/README.md) for prerequisites and suggested study paths.
 

@@ -41,4 +41,4 @@ Then repeat the same idea with an angle and a dihedral. If you have a trajectory
 
 - VMD `measure` command reference, version 1.8.5: https://www.ks.uiuc.edu/Research/vmd/vmd-1.8.5/ug/node124.html
 - VMD `measure` command reference, version 1.8.6: https://www.ks.uiuc.edu/Research/vmd/vmd-1.8.6/ug/node124.html
-- Compchems guide to VMD distance, angle, and dihedral measurements: https://www.compchems.com/vmd-measurements-analyze-distances-and-angles-with-vmd/#distance-measurements-in-vmd
+- Compchems guide to VMD distance, angle, and dihedral measurements: https://www.compchems.com/vmd-measurements-analyze-distances-and-angles-with-vmd/#tracking-distance-during-the-simulation

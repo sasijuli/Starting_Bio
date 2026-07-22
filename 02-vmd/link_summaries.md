@@ -4,21 +4,29 @@ This file organizes supplementary VMD resources by tutorial level and topic. Use
 
 ## VMD Basics
 
+### General VMD Learning
+
+Local tutorial: [Using External VMD Tutorials](vmd-basics/tutorial-resources.md)
+
+#### TCBG Tutorials Page
+
+Link: https://www.ks.uiuc.edu/Training/Tutorials/
+
+Short summary: The official TCBG tutorial index collects VMD and NAMD training material. The VMD section includes the beginner Using VMD tutorial, QwikMD, VMD Images and Movies, structure checking, quantum chemistry visualization, and short topical rendering tutorials.
+
+Use this for: Choosing official practice material after the local basics pages.
+
 ### Measurements
 
 Local tutorial: [Measurements In VMD](vmd-basics/measurements.md)
 
 #### VMD Measurements: Analyze Distances And Angles With VMD
 
-Link: https://www.compchems.com/vmd-measurements-analyze-distances-and-angles-with-vmd/#distance-measurements-in-vmd
+Link: https://www.compchems.com/vmd-measurements-analyze-distances-and-angles-with-vmd/#tracking-distance-during-the-simulation
 
 Short summary: A practical guide for using VMD's interactive measurement tools. It explains how to measure distances, angles, and dihedrals with keyboard pick modes, manage labels, and follow measurements across trajectory frames.
 
 Use this for: Additional GUI-based measurement practice before moving to scripted analysis.
-
-### General VMD Learning
-
-Local tutorial: [Using External VMD Tutorials](vmd-basics/tutorial-resources.md)
 
 #### Current VMD User's Guide
 
@@ -36,39 +44,39 @@ Short summary: The official beginner VMD tutorial. It covers molecular visualiza
 
 Use this for: A structured hands-on practice sequence after completing the local VMD Basics pages.
 
-### Video Resources
+## Video Tutorials
 
-These links are collected here for manual review. Add a title, summary, and notes after watching each resource.
+These YouTube resources are grouped by topic. Use them as optional visual practice after reading the matching local module.
 
-#### Mohamed Shehata YouTube Playlists
+### VMD Basics And Molecular Visualization
 
-Link: https://www.youtube.com/@Mohamedshehata/playlists
-
-Title:
-
-Short summary:
-
-Manual notes:
-
-#### YouTube Video: wWuV6mW239I
-
-Link: https://www.youtube.com/watch?v=wWuV6mW239I
-
-Title:
-
-Short summary:
-
-Manual notes:
-
-#### YouTube Video: _skmrS6X4Ys
+#### Molecular visualization with VMD
 
 Link: https://www.youtube.com/watch?v=_skmrS6X4Ys
 
-Title:
+Source: WestDRI
 
-Short summary:
+Use this for: A video walkthrough of VMD molecular visualization concepts.
 
-Manual notes:
+### Molecular Modeling With VMD
+
+#### Water Atomic Modeling with VMD
+
+Link: https://www.youtube.com/watch?v=wWuV6mW239I
+
+Source: LAMMPS Tube
+
+Use this for: A focused example of water atomic modeling with VMD.
+
+### Mixed Molecular Simulation Playlists
+
+#### Mohamed shehata
+
+Link: https://www.youtube.com/@Mohamedshehata/playlists
+
+Source: Mohamed shehata YouTube channel playlists
+
+Use this for: Browsing playlist-level tutorials tagged around VMD, NAMD, GROMACS, PDB, molecular dynamics simulations, DFT, computational chemistry, Python, and molecular modelling.
 
 ## VMD Pro
 
@@ -80,7 +88,7 @@ Local tutorial: [Publication Graphics](vmd-pro/publication-graphics.md)
 
 Link: https://github.com/skblnw/mkvmd_render
 
-Short summary: A GitHub mini tutorial focused on making publication-style molecular images in VMD. It emphasizes Tachyon rendering, ambient occlusion, material choices, display settings, and practical image-quality improvements.
+Short summary: A GitHub mini tutorial focused on making publication-style molecular images in VMD. It emphasizes Tachyon rendering, high output resolution, ambient occlusion, material choices, lighting, transparency, display settings, and practical image-quality improvements.
 
 Use this for: Improving VMD figures after becoming comfortable with basic representations and rendering.
 

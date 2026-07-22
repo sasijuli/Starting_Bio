@@ -21,15 +21,20 @@ This module is divided into two learning levels:
 
 ## NAMD Pro
 
-- [System Preparation And Validation](namd-pro/system-preparation-and-validation.md)
-- [Equilibration And Production](namd-pro/equilibration-and-production.md)
-- [Membrane Simulations](namd-pro/membrane-simulations.md)
-- [Free-Energy And Enhanced-Sampling Methods](namd-pro/free-energy-and-enhanced-sampling.md)
-- [HPC And Performance](namd-pro/hpc-and-performance.md)
-- [Restarts And Troubleshooting](namd-pro/restarts-and-troubleshooting.md)
-- [Reproducibility And Data Management](namd-pro/reproducibility-and-data-management.md)
+- [How can I prepare and validate a NAMD system?](namd-pro/system-preparation-and-validation.md)
+- [How can I equilibrate a system before production?](namd-pro/equilibration-and-production.md)
+- [How can I run membrane simulations safely?](namd-pro/membrane-simulations.md)
+- [How can I choose enhanced-sampling or free-energy methods?](namd-pro/free-energy-and-enhanced-sampling.md)
+- [How can I run NAMD efficiently on a supercomputer?](namd-pro/hpc-and-performance.md)
+- [How can I restart and troubleshoot NAMD simulations?](namd-pro/restarts-and-troubleshooting.md)
+- [How can I make NAMD simulations reproducible?](namd-pro/reproducibility-and-data-management.md)
 
 See the [NAMD Pro overview](namd-pro/README.md) for prerequisites and guidance.
+
+## Video Tutorials
+
+- [Introduction to VMD and NAMD - Emad Tajkhorshid](https://www.youtube.com/watch?v=VdfeUSB3VZA)
+- [Intro to Running Molecular Dynamics Simulations with NAMD](https://www.youtube.com/watch?v=xS4r2bLATvo&t=638s)
 
 ## Supporting Resources
 

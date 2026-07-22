@@ -36,6 +36,16 @@ VMD stands for Visual Molecular Dynamics. It is commonly used to visualize biomo
 8. [Using External VMD Tutorials](tutorial-resources.md)
 9. Optional: [VMD Supplementary Link Summaries](../link_summaries.md) for extra practice links and video notes
 
+## Basic Topic Map
+
+- **Install and open VMD**: confirm that VMD starts and that the Main, OpenGL Display, and Console windows are available.
+- **Load molecular data**: open a structure file first, then add trajectory files to the same molecule when needed.
+- **Build representations**: combine selected atoms, drawing method, coloring method, and material.
+- **Select atoms intentionally**: use the same selection language in the graphical interface and Tcl scripts.
+- **Measure structures**: start with GUI pick modes for distances, angles, and dihedrals, then reproduce useful values with Tcl.
+- **Inspect trajectories**: use playback, smoothing, multiple-frame display, and updated coordinate-dependent selections.
+- **Use external tutorials**: practice with official VMD tutorials and use supplementary links as optional reinforcement.
+
 ## Practice
 
 1. Download a small protein structure from the Protein Data Bank.

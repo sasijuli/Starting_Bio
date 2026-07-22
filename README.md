@@ -2,11 +2,13 @@
 
 Starting Bio is a beginner-friendly collection of tutorials for learning tools commonly used in biomolecular modeling and molecular dynamics workflows.
 
-The material is organized into three main modules:
+The material is organized into five main modules:
 
 - Linux command-line fundamentals
 - VMD for molecular visualization and analysis
 - NAMD for molecular dynamics simulations
+- Batch computing for supercomputer job scheduling
+- Useful tools for membrane analysis
 
 ## Who This Is For
 
@@ -24,6 +26,10 @@ Work through the modules in numerical order:
    Start with core visualization and analysis, then continue to advanced or system-specific workflows.
 3. [NAMD](03-namd/)
    Start with simulation inputs and execution, then continue to advanced simulation design and specialized methods.
+4. [Batch Computing](04-batch-computing/)
+   Learn the basics of Slurm batch jobs before running demanding workloads on a supercomputer.
+5. [Useful Tools For Membrane Analysis](05-useful-tools-for-membrane-analysis/)
+   Collect external GitHub tools for membrane simulation analysis.
 
 ## Module Contents
 
@@ -49,6 +55,17 @@ Work through the modules in numerical order:
 - [NAMD Pro](03-namd/namd-pro/README.md)
 - [NAMD references](03-namd/references.md)
 
+### 4. Batch Computing
+
+- [Module overview](04-batch-computing/README.md)
+- External Slurm tutorial: https://github.com/mkandes/batch-computing/blob/main/BATCH.md
+
+### 5. Useful Tools For Membrane Analysis
+
+- [Module overview](05-useful-tools-for-membrane-analysis/README.md)
+- MembraneAnalysis.jl: https://github.com/amiralih/MembraneAnalysis.jl
+- qwrap, fast PBC wrapping and unwrapping for VMD: https://github.com/jhenin/qwrap
+
 ## Supporting Resources
 
 - [Glossary](glossary.md): definitions of important Linux, VMD, and NAMD terms
@@ -56,6 +73,18 @@ Work through the modules in numerical order:
 - [References](references.md): the complete list of external sources used in the tutorials
 - [Tutorial page template](templates/tutorial-page-template.md): structure for adding a new tutorial page
 - [Exercise template](templates/exercise-template.md): structure for adding a new exercise
+
+## Reference Index
+
+Use the main [reference list](references.md) when you need sources grouped by topic.
+
+- Linux: command-line manuals and documentation sources
+- VMD basics: installation, visualization, atom selections, Tcl commands, measurements, trajectories, and movies
+- VMD advanced: automation, trajectory analysis, protein-ligand analysis, membrane workflows, publication graphics, and large-system performance
+- NAMD basics: installation, input files, running simulations, and analyzing outputs
+- NAMD advanced: system preparation, equilibration, membranes, enhanced sampling, HPC, restarts, troubleshooting, and reproducibility
+- Batch computing: Slurm job scheduling, login-node rules, queues, nodes, job arrays, and dependencies
+- Membrane analysis tools: GitHub repositories for lipid membrane and membrane-protein analysis workflows
 
 When possible, this tutorial links to official documentation from Linux manual pages, VMD, and NAMD.
 
@@ -65,9 +94,10 @@ When possible, this tutorial links to official documentation from Linux manual p
 2. Complete the `basics` section before moving to the corresponding `pro` section.
 3. Read basic topic pages in the suggested order.
 4. Choose advanced pages according to your scientific system or question.
-5. Run the commands and complete the practice exercises.
-6. Use the glossary when you encounter unfamiliar terminology.
-7. Consult the external references for more detailed explanations.
+5. Complete the batch-computing module before running long jobs on a supercomputer.
+6. Run the commands and complete the practice exercises.
+7. Use the glossary when you encounter unfamiliar terminology.
+8. Consult the external references for more detailed explanations.
 
 The tutorial pages may include:
 
@@ -130,6 +160,10 @@ Starting_bio/
 │       ├── hpc-and-performance.md
 │       ├── restarts-and-troubleshooting.md
 │       └── reproducibility-and-data-management.md
+├── 04-batch-computing/
+│   └── README.md
+├── 05-useful-tools-for-membrane-analysis/
+│   └── README.md
 ├── templates/
 │   ├── exercise-template.md
 │   └── tutorial-page-template.md

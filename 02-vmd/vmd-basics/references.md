@@ -23,7 +23,21 @@ The command pages above document older VMD releases but remain useful for the co
 
 ## Supplementary Reference
 
-- Compchems guide to distances, angles, and dihedrals in VMD: https://www.compchems.com/vmd-measurements-analyze-distances-and-angles-with-vmd/#distance-measurements-in-vmd
+- Compchems guide to distances, angles, and dihedrals in VMD: https://www.compchems.com/vmd-measurements-analyze-distances-and-angles-with-vmd/#tracking-distance-during-the-simulation
+
+## Video Tutorials
+
+### VMD Basics And Molecular Visualization
+
+- Molecular visualization with VMD: https://www.youtube.com/watch?v=_skmrS6X4Ys
+
+### Molecular Modeling With VMD
+
+- Water Atomic Modeling with VMD: https://www.youtube.com/watch?v=wWuV6mW239I
+
+### Mixed Molecular Simulation Playlists
+
+- Mohamed shehata: https://www.youtube.com/@Mohamedshehata/playlists
 
 ## Related Repository Resources
 

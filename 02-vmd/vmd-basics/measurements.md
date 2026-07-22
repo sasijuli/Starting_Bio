@@ -74,7 +74,7 @@ Use any small `.pdb` file and complete these tasks:
 
 ## Supplementary Tutorial
 
-After completing the exercises above, use the [Compchems VMD measurements guide](https://www.compchems.com/vmd-measurements-analyze-distances-and-angles-with-vmd/#distance-measurements-in-vmd) for another GUI-based example of distances, angles, dihedrals, labels, and trajectory-dependent measurements.
+After completing the exercises above, use the [Compchems VMD measurements guide](https://www.compchems.com/vmd-measurements-analyze-distances-and-angles-with-vmd/#tracking-distance-during-the-simulation) for another GUI-based example of distances, angles, dihedrals, labels, and trajectory-dependent measurements.
 
 See the local [VMD supplementary link summary](../link_summaries.md#measurements) for guidance on how this resource fits into the tutorial.
 
@@ -82,4 +82,4 @@ See the local [VMD supplementary link summary](../link_summaries.md#measurements
 
 - VMD `measure` command reference, version 1.8.5: https://www.ks.uiuc.edu/Research/vmd/vmd-1.8.5/ug/node124.html
 - VMD `measure` command reference, version 1.8.6: https://www.ks.uiuc.edu/Research/vmd/vmd-1.8.6/ug/node124.html
-- Compchems guide to VMD distance, angle, and dihedral measurements: https://www.compchems.com/vmd-measurements-analyze-distances-and-angles-with-vmd/#distance-measurements-in-vmd
+- Compchems guide to VMD distance, angle, and dihedral measurements: https://www.compchems.com/vmd-measurements-analyze-distances-and-angles-with-vmd/#tracking-distance-during-the-simulation

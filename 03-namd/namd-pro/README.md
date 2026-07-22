@@ -11,23 +11,15 @@ Complete [NAMD Basics](../namd-basics/) and confirm that you can:
 - Detect obvious warnings or errors in a log
 - Load the resulting trajectory in VMD
 
-## Advanced Workflows
+## Advanced Question Modules
 
-### Simulation Design
-
-1. [System Preparation And Validation](system-preparation-and-validation.md)
-2. [Equilibration And Production](equilibration-and-production.md)
-3. [Restarts And Troubleshooting](restarts-and-troubleshooting.md)
-
-### Specialized Methods And Systems
-
-- [Membrane Simulations](membrane-simulations.md)
-- [Free-Energy And Enhanced-Sampling Methods](free-energy-and-enhanced-sampling.md)
-
-### Computing And Reproducibility
-
-- [HPC And Performance](hpc-and-performance.md)
-- [Reproducibility And Data Management](reproducibility-and-data-management.md)
+1. [How can I prepare and validate a NAMD system?](system-preparation-and-validation.md)
+2. [How can I equilibrate a system before production?](equilibration-and-production.md)
+3. [How can I run membrane simulations safely?](membrane-simulations.md)
+4. [How can I choose enhanced-sampling or free-energy methods?](free-energy-and-enhanced-sampling.md)
+5. [How can I run NAMD efficiently on a supercomputer?](hpc-and-performance.md)
+6. [How can I restart and troubleshoot NAMD simulations?](restarts-and-troubleshooting.md)
+7. [How can I make NAMD simulations reproducible?](reproducibility-and-data-management.md)
 
 ## Safety And Validation Principle
 
