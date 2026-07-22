@@ -21,9 +21,6 @@ Complete [NAMD Basics](../namd-basics/) and confirm that you can:
 6. [How can I restart and troubleshoot NAMD simulations?](restarts-and-troubleshooting.md)
 7. [How can I make NAMD simulations reproducible?](reproducibility-and-data-management.md)
 
-## Safety And Validation Principle
-
-Do not copy advanced parameters without understanding their physical meaning. Record units, force-field versions, boundary conditions, thermostat and barostat settings, restraints, timestep choices, and software versions. Validate each stage before starting a long production simulation.
 
 ## Simulation Best practices
 
