@@ -40,6 +40,10 @@ Smith, Klauda, and Sodt's article, "Simulation Best Practices for Lipid Membrane
 - **Validate before interpreting results.** Confirm that area per lipid, bilayer thickness, box dimensions, membrane order, water/ion placement, and any study-specific properties are stable before collecting production averages.
 - **Report limitations.** Note finite-size effects, sampling time, model resolution, and force-field assumptions when comparing with experiments or published simulations.
 
+## Safety And Validation Principle
+
+Do not copy advanced parameters without understanding their physical meaning. Record units, force-field versions, boundary conditions, thermostat and barostat settings, restraints, timestep choices, and software versions. Validate each stage before starting a long production simulation.
+
 ## External References
 
 - NAMD pressure control: https://www.ks.uiuc.edu/Research/namd/3.0b3/ug/node39.html
