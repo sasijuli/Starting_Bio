@@ -25,6 +25,13 @@ Complete [NAMD Basics](../namd-basics/) and confirm that you can:
 
 Do not copy advanced parameters without understanding their physical meaning. Record units, force-field versions, boundary conditions, thermostat and barostat settings, restraints, timestep choices, and software versions. Validate each stage before starting a long production simulation.
 
+## Simulation Best practices
+
+Use "Simulation Best Practices for Lipid Membranes" as a practical checklist when planning membrane simulations in NAMD Pro. Before production, define the scientific question, choose a membrane model and force field intentionally, document MD controls, equilibrate in stages, and validate membrane properties such as area per lipid, bilayer thickness, box dimensions, order parameters, and water or ion placement.
+
+- [Membrane simulation best-practices notes](membrane-simulations.md#simulation-best-practices)
+- [Simulation Best Practices for Lipid Membranes](https://pmc.ncbi.nlm.nih.gov/articles/PMC9534443/)
+
 ## References
 
 - [NAMD Pro references](references.md)
