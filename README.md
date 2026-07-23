@@ -45,6 +45,7 @@ Work through the modules in numerical order:
 - [Module overview](02-vmd/README.md)
 - [VMD Basics](02-vmd/vmd-basics/README.md)
 - [VMD Pro](02-vmd/vmd-pro/README.md)
+- [`mkvmd_render` VMD Pro redirect](02-vmd/vmd-pro/mkvmd-render.md)
 - [VMD references](02-vmd/references.md)
 - [VMD supplementary link summaries](02-vmd/link_summaries.md)
 
@@ -139,6 +140,7 @@ Starting_bio/
 │       ├── protein-ligand-analysis.md
 │       ├── membrane-analysis.md
 │       ├── publication-graphics.md
+│       ├── mkvmd-render.md
 │       └── large-systems-and-performance.md
 ├── 03-namd/
 │   ├── README.md

@@ -59,6 +59,7 @@ These references support advanced scripting, trajectory processing, specialized 
 - `protein-ligand-analysis.md`: `measure`, `atomselect`, molecular analysis with `atomselect`, Molefacture, PDB format reference, and the Compchems measurement guide
 - `membrane-analysis.md`: membrane-modeling resource, TopoTools, Molefacture, qwrap, `atomselect`, `measure`, VMD plugins, and the VMD User's Guide
 - `publication-graphics.md`: Working with a Single Molecule, VMD Images and Movies, VMD save states, VMD User's Guide rendering documentation, and `mkvmd_render`
+- `mkvmd-render.md`: `mkvmd_render` GitHub tutorial for publication-style VMD rendering
 - `large-systems-and-performance.md`: VMD User's Guide, Running VMD on Supercomputers, `molinfo`, and `atomselect`
 
 ## Related Repository Resources

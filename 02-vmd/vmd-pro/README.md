@@ -21,6 +21,10 @@ Complete the following VMD Basics topics first:
 5. [How can I make high-resolution images and movies?](publication-graphics.md)
 6. [How can I work with large systems efficiently?](large-systems-and-performance.md)
 
+## External GitHub Modules
+
+- [`mkvmd_render`](mkvmd-render.md): redirects to a GitHub tutorial for publication-style VMD rendering.
+
 ## How To Use This Section
 
 Advanced pages are independent. Choose the workflow that matches your scientific question, document every atom selection and parameter, and test scripts on a small subset of frames before processing a complete trajectory.

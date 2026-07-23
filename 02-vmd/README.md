@@ -35,6 +35,7 @@ The advanced section is organized as practical questions rather than as a strict
 - [How can I study membrane systems in VMD?](vmd-pro/membrane-analysis.md)
 - [How can I make high-resolution images and movies?](vmd-pro/publication-graphics.md)
 - [How can I work with large systems efficiently?](vmd-pro/large-systems-and-performance.md)
+- [`mkvmd_render` GitHub rendering module](vmd-pro/mkvmd-render.md)
 
 See the [VMD Pro overview](vmd-pro/README.md) for prerequisites and suggested study paths.
 

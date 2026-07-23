@@ -64,7 +64,7 @@ Use trajectory smoothing, draw selected frame ranges, and update selections for 
 
 ## Supplementary Resource
 
-The [`mkvmd_render` tutorial](https://github.com/skblnw/mkvmd_render) provides practical examples for Tachyon rendering, ambient occlusion, materials, lights, transparency, and high-resolution settings.
+The local [`mkvmd_render` redirect module](mkvmd-render.md) points to a GitHub tutorial with practical examples for Tachyon rendering, ambient occlusion, materials, lights, transparency, and high-resolution settings.
 
 Read the local [publication graphics link summary](../link_summaries.md#publication-graphics) before using it as a follow-up exercise.
 
