@@ -72,6 +72,8 @@ Work through the modules in numerical order:
 - [Glossary](glossary.md): definitions of important Linux, VMD, and NAMD terms
 - [VMD supplementary link summaries](02-vmd/link_summaries.md): optional VMD articles, videos, tutorials, and notes organized by topic
 - [References](references.md): the complete list of external sources used in the tutorials
+- [Module template folder](templates/module-template/): copy-ready structure for adding a new numbered module
+- [AI module prompt](templates/module-template/ai-module-prompt.md): reusable prompt for drafting a new module with AI
 - [Tutorial page template](templates/tutorial-page-template.md): structure for adding a new tutorial page
 - [Exercise template](templates/exercise-template.md): structure for adding a new exercise
 
@@ -168,8 +170,28 @@ Starting_bio/
 │   └── README.md
 ├── templates/
 │   ├── exercise-template.md
+│   ├── module-template/
+│   │   ├── README.md
+│   │   ├── ai-module-prompt.md
+│   │   ├── exercises.md
+│   │   ├── references.md
+│   │   └── topic-page.md
 │   └── tutorial-page-template.md
 ├── README.md
 ├── glossary.md
 └── references.md
 ```
+
+## For Repository Admins
+
+Modules are implemented as numbered Markdown folders so the learning path, URLs, and repository tree stay easy to scan.
+
+| Module | Implementation |
+| --- | --- |
+| `01-linux-basics/` | Single-folder introductory module. `README.md` is the module overview; `commands-cheatsheet.md`, `exercises.md`, and `references.md` provide focused supporting pages. |
+| `02-vmd/` | Parent module with two nested tracks. `vmd-basics/` is an ordered beginner sequence; `vmd-pro/` is a set of question-driven advanced pages. Each track has its own `README.md` and `references.md`; the parent README links both tracks and shared VMD resources. |
+| `03-namd/` | Parent module matching the VMD pattern. `namd-basics/` covers the linear first-simulation path; `namd-pro/` covers advanced simulation workflows. Parent and track-level READMEs keep navigation local. |
+| `04-batch-computing/` | Lightweight redirect module. `README.md` summarizes the local learning focus and points to an external Slurm tutorial instead of duplicating the full content. |
+| `05-useful-tools-for-membrane-analysis/` | Curated-tool module. `README.md` groups external tools by topic and records purpose, prerequisites, related course pages, and source links. |
+
+When adding a module, copy `templates/module-template/` to a new numbered folder such as `06-new-module/`, rename `topic-page.md`, then update the main roadmap, module contents, supporting resources if needed, repository tree, and `references.md`. Keep module READMEs short: learning goal, recommended path, page links, related pages, and external references. Use `templates/module-template/ai-module-prompt.md` when asking an AI assistant to draft the first version of a new module.
