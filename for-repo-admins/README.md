@@ -2,31 +2,6 @@
 
 This folder contains repository-maintenance notes and copy-ready templates for creating new modules or tutorial pages.
 
-## Current Folder Structure
-
-```text
-for-repo-admins/
-├── README.md
-├── exercise-template.md
-├── tutorial-page-template.md
-├── template-larger-module/
-│   ├── README.md
-│   ├── ai-module-prompt.md
-│   ├── link_summaries.md
-│   ├── references.md
-│   ├── module-basics/
-│   │   ├── README.md
-│   │   ├── references.md
-│   │   └── topic-page.md
-│   └── module-pro/
-│       ├── README.md
-│       ├── advanced-topic-page.md
-│       └── references.md
-└── template-shorter-module/
-    ├── README.md
-    └── ai-short-module-prompt.md
-```
-
 ## Module Structure
 
 Modules are implemented as numbered Markdown folders so the learning path, URLs, and repository tree stay easy to scan. A typical module has:
@@ -65,7 +40,9 @@ Use the shorter-module files this way:
 
 ## Standalone Page Templates
 
-Use `tutorial-page-template.md` when adding one new lesson page inside an existing module. Use `exercise-template.md` when adding a focused exercise page.
+Use `tutorial-page-template.md` when adding one new lesson page inside an existing module.
+
+Use `exercise-template.md` when adding a focused exercise page.
 
 ## Update Checklist
 
@@ -78,3 +55,29 @@ After adding any module, update:
 - Module-level links back to related course pages
 
 Use the AI prompt inside the matching template folder when asking an AI assistant to draft the first version of a module.
+
+## Current Folder Structure
+
+```text
+for-repo-admins/
+├── README.md
+├── exercise-template.md
+├── tutorial-page-template.md
+├── template-larger-module/
+│   ├── README.md
+│   ├── ai-module-prompt.md
+│   ├── link_summaries.md
+│   ├── references.md
+│   ├── module-basics/
+│   │   ├── README.md
+│   │   ├── references.md
+│   │   └── topic-page.md
+│   └── module-pro/
+│       ├── README.md
+│       ├── advanced-topic-page.md
+│       └── references.md
+└── template-shorter-module/
+    ├── README.md
+    └── ai-short-module-prompt.md
+```
+
