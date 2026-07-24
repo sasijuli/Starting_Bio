@@ -72,7 +72,7 @@ Work through the modules in numerical order:
 - [Glossary](glossary.md): definitions of important Linux, VMD, and NAMD terms
 - [VMD supplementary link summaries](02-vmd/link_summaries.md): optional VMD articles, videos, tutorials, and notes organized by topic
 - [References](references.md): the complete list of external sources used in the tutorials
-- [Module template folder](templates/module-template/): copy-ready structure for adding a new numbered module
+- [Module template folder](templates/module-template/): VMD-style copy-ready structure for adding a new numbered module
 - [AI module prompt](templates/module-template/ai-module-prompt.md): reusable prompt for drafting a new module with AI
 - [Tutorial page template](templates/tutorial-page-template.md): structure for adding a new tutorial page
 - [Exercise template](templates/exercise-template.md): structure for adding a new exercise
@@ -173,9 +173,16 @@ Starting_bio/
 │   ├── module-template/
 │   │   ├── README.md
 │   │   ├── ai-module-prompt.md
-│   │   ├── exercises.md
-│   │   ├── references.md
-│   │   └── topic-page.md
+│   │   ├── link_summaries.md
+│   │   ├── module-basics/
+│   │   │   ├── README.md
+│   │   │   ├── references.md
+│   │   │   └── topic-page.md
+│   │   ├── module-pro/
+│   │   │   ├── README.md
+│   │   │   ├── advanced-topic-page.md
+│   │   │   └── references.md
+│   │   └── references.md
 │   └── tutorial-page-template.md
 ├── README.md
 ├── glossary.md
@@ -184,14 +191,14 @@ Starting_bio/
 
 ## For Repository Admins
 
-Modules are implemented as numbered Markdown folders so the learning path, URLs, and repository tree stay easy to scan.
+Modules are implemented as numbered Markdown folders so the learning path, URLs, and repository tree stay easy to scan. A typical module has:
 
-| Module | Implementation |
-| --- | --- |
-| `01-linux-basics/` | Single-folder introductory module. `README.md` is the module overview; `commands-cheatsheet.md`, `exercises.md`, and `references.md` provide focused supporting pages. |
-| `02-vmd/` | Parent module with two nested tracks. `vmd-basics/` is an ordered beginner sequence; `vmd-pro/` is a set of question-driven advanced pages. Each track has its own `README.md` and `references.md`; the parent README links both tracks and shared VMD resources. |
-| `03-namd/` | Parent module matching the VMD pattern. `namd-basics/` covers the linear first-simulation path; `namd-pro/` covers advanced simulation workflows. Parent and track-level READMEs keep navigation local. |
-| `04-batch-computing/` | Lightweight redirect module. `README.md` summarizes the local learning focus and points to an external Slurm tutorial instead of duplicating the full content. |
-| `05-useful-tools-for-membrane-analysis/` | Curated-tool module. `README.md` groups external tools by topic and records purpose, prerequisites, related course pages, and source links. |
+- `README.md`: the module overview, learning path, page links, related pages, and external references
+- Topic pages: focused `.md` files for individual lessons, tools, or workflows
+- `references.md`: sources used only by that module or track
+- Optional subfolders: nested learning tracks when a topic naturally splits into levels, audiences, or workflows
+- Optional support pages: exercises, cheatsheets, link summaries, redirects, or curated tool lists
 
-When adding a module, copy `templates/module-template/` to a new numbered folder such as `06-new-module/`, rename `topic-page.md`, then update the main roadmap, module contents, supporting resources if needed, repository tree, and `references.md`. Keep module READMEs short: learning goal, recommended path, page links, related pages, and external references. Use `templates/module-template/ai-module-prompt.md` when asking an AI assistant to draft the first version of a new module.
+Use `02-vmd/` as the model for a larger module. Its parent `README.md` explains the overall VMD path and links to two nested tracks: `vmd-basics/` for an ordered beginner sequence and `vmd-pro/` for advanced, question-driven workflows. Each track keeps its own `README.md`, topic pages, and `references.md`, while shared VMD resources stay at the parent module level.
+
+When adding a larger module, copy `templates/module-template/` to a new numbered folder such as `06-new-module/`, then rename `module-basics/`, `module-pro/`, `topic-page.md`, and `advanced-topic-page.md` to match the new topic. Update the main roadmap, module contents, supporting resources if needed, repository tree, and `references.md`. Keep module READMEs compact and navigation-focused. Use `templates/module-template/ai-module-prompt.md` when asking an AI assistant to draft the first version of a new module.

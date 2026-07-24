@@ -1,4 +1,4 @@
-# Topic Page Title
+# Starter Topic Title
 
 ## Learning Goals
 
@@ -29,4 +29,5 @@ Add a short task that checks the main skill from this page.
 
 ## External References
 
+- Complete basics reference list: [references.md](references.md)
 - Source title: URL

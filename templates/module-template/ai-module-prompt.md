@@ -23,15 +23,21 @@ Repository style:
 - Do not assume advanced programming knowledge.
 - Match the structure used by existing module README files.
 
-Create these files:
-- README.md: overview, learning goals, recommended path, module pages, related course pages, external references
-- topic-page.md: one complete starter tutorial page with learning goals, background, step-by-step tutorial, practice, common errors, external references
-- exercises.md: module-level exercises with objective, instructions, questions, expected result, external references
-- references.md: official documentation, tutorials and guides, related course references
+Create a VMD-style module structure:
+- README.md: parent overview, recommended path, basics track links, pro track links, supporting resources, external references
+- references.md: sources that support the whole module
+- link_summaries.md: optional supplementary links grouped by topic
+- module-basics/README.md: beginner track overview, learning goals, suggested order, topic map, practice, references, next step
+- module-basics/topic-page.md: one complete beginner tutorial page
+- module-basics/references.md: beginner track references
+- module-pro/README.md: advanced track overview, prerequisites, advanced question modules, how to use the section, references, recommended page structure
+- module-pro/advanced-topic-page.md: one complete advanced workflow page
+- module-pro/references.md: advanced track references
 
 Also provide:
 - A suggested folder name
-- Suggested page names if the module needs more than one topic page
+- Suggested names for the basics and pro track folders
+- Suggested page names if either track needs more topic pages
 - A short note explaining what must be added to the root README.md roadmap and repository tree
 
 Important constraints:

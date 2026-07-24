@@ -1,6 +1,6 @@
 # Module References
 
-Use this file for sources that support only this module. Add broadly useful sources to the root `references.md` as well.
+Use this parent reference file for sources that support the whole module. Track-specific sources can go in `module-basics/references.md` or `module-pro/references.md`.
 
 ## Official Documentation
 
