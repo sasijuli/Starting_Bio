@@ -72,10 +72,11 @@ Work through the modules in numerical order:
 - [Glossary](glossary.md): definitions of important Linux, VMD, and NAMD terms
 - [VMD supplementary link summaries](02-vmd/link_summaries.md): optional VMD articles, videos, tutorials, and notes organized by topic
 - [References](references.md): the complete list of external sources used in the tutorials
-- [Module template folder](templates/module-template/): VMD-style copy-ready structure for adding a new numbered module
-- [AI module prompt](templates/module-template/ai-module-prompt.md): reusable prompt for drafting a new module with AI
-- [Tutorial page template](templates/tutorial-page-template.md): structure for adding a new tutorial page
-- [Exercise template](templates/exercise-template.md): structure for adding a new exercise
+- [Repository admin guide](for-repo-admins/README.md): module structure notes and template instructions
+- [Larger module template](for-repo-admins/templates-larger-module/module-template/): VMD-style copy-ready structure for adding a larger numbered module
+- [Shorter module template](for-repo-admins/template-for-shorter-module/module-template/): single-README structure for adding a compact numbered module
+- [Tutorial page template](for-repo-admins/templates-larger-module/tutorial-page-template.md): structure for adding a new tutorial page
+- [Exercise template](for-repo-admins/templates-larger-module/exercise-template.md): structure for adding a new exercise
 
 ## Reference Index
 
@@ -168,37 +169,29 @@ Starting_bio/
 │   └── README.md
 ├── 05-useful-tools-for-membrane-analysis/
 │   └── README.md
-├── templates/
-│   ├── exercise-template.md
-│   ├── module-template/
-│   │   ├── README.md
-│   │   ├── ai-module-prompt.md
-│   │   ├── link_summaries.md
-│   │   ├── module-basics/
-│   │   │   ├── README.md
-│   │   │   ├── references.md
-│   │   │   └── topic-page.md
-│   │   ├── module-pro/
-│   │   │   ├── README.md
-│   │   │   ├── advanced-topic-page.md
-│   │   │   └── references.md
-│   │   └── references.md
-│   └── tutorial-page-template.md
+├── for-repo-admins/
+│   ├── README.md
+│   ├── template-for-shorter-module/
+│   │   └── module-template/
+│   │       ├── README.md
+│   │       └── ai-short-module-prompt.md
+│   └── templates-larger-module/
+│       ├── exercise-template.md
+│       ├── module-template/
+│       │   ├── README.md
+│       │   ├── ai-module-prompt.md
+│       │   ├── link_summaries.md
+│       │   ├── module-basics/
+│       │   │   ├── README.md
+│       │   │   ├── references.md
+│       │   │   └── topic-page.md
+│       │   ├── module-pro/
+│       │   │   ├── README.md
+│       │   │   ├── advanced-topic-page.md
+│       │   │   └── references.md
+│       │   └── references.md
+│       └── tutorial-page-template.md
 ├── README.md
 ├── glossary.md
 └── references.md
 ```
-
-## For Repository Admins
-
-Modules are implemented as numbered Markdown folders so the learning path, URLs, and repository tree stay easy to scan. A typical module has:
-
-- `README.md`: the module overview, learning path, page links, related pages, and external references
-- Topic pages: focused `.md` files for individual lessons, tools, or workflows
-- `references.md`: sources used only by that module or track
-- Optional subfolders: nested learning tracks when a topic naturally splits into levels, audiences, or workflows
-- Optional support pages: exercises, cheatsheets, link summaries, redirects, or curated tool lists
-
-Use `02-vmd/` as the model for a larger module. Its parent `README.md` explains the overall VMD path and links to two nested tracks: `vmd-basics/` for an ordered beginner sequence and `vmd-pro/` for advanced, question-driven workflows. Each track keeps its own `README.md`, topic pages, and `references.md`, while shared VMD resources stay at the parent module level.
-
-When adding a larger module, copy `templates/module-template/` to a new numbered folder such as `06-new-module/`, then rename `module-basics/`, `module-pro/`, `topic-page.md`, and `advanced-topic-page.md` to match the new topic. Update the main roadmap, module contents, supporting resources if needed, repository tree, and `references.md`. Keep module READMEs compact and navigation-focused. Use `templates/module-template/ai-module-prompt.md` when asking an AI assistant to draft the first version of a new module.
